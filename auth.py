@@ -3,7 +3,7 @@ from jose import jwt
 from fastapi import Depends, HTTPException, status
 from fastapi.security import OAuth2PasswordBearer
 
-SECRET_KEY = "mi_clave_super_secreta_del_examen" 
+SECRET_KEY = "CONTRASEÑA" 
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 30
 
